@@ -1,17 +1,12 @@
-import './App.css';
+
+import React from "react";
 
 function App() {
   return (
-    <main className="min-h-screen bg-black text-gold font-sans">
-      <section className="text-center py-20 px-4">
-        <h1 className="text-5xl font-bold mb-4">Shielded Chauffeur</h1>
-        <p className="text-xl max-w-2xl mx-auto">
-          Driven to Protect. Built to Serve. Premium Black Car Service with Executive-Level Security.
-        </p>
-        <button className="mt-6 bg-gold text-black px-6 py-2 font-semibold rounded hover:bg-yellow-400">
-          Book Now
-        </button>
-      </section>
+    <main style={{ backgroundColor: '#000', color: '#d4af37', fontFamily: 'sans-serif', minHeight: '100vh', padding: '2rem' }}>
+      <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Shielded Chauffeur</h1>
+      <p>Premium Executive Transportation & Protective Chauffeur Services.</p>
+      <p style={{ marginTop: '2rem' }}>Deployment test - site ready for Vercel.</p>
     </main>
   );
 }
